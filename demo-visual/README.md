@@ -32,3 +32,7 @@ main.js  →  define los PASOS
 rpa-bot.js  →  ejecuta las ACCIONES (como Playwright, pero en el browser)
 index.html  →  la APP que se automatiza
 ```
+
+---
+
+📚 **Parte del proyecto RPA para Devs**: https://github.com/illuminaki/rpa
