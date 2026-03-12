@@ -1,0 +1,11 @@
+{
+  "name": "demo-playwright-rpa",
+  "version": "1.0.0",
+  "description": "Demo RPA con Playwright — automatiza un formulario web real",
+  "scripts": {
+    "bot": "node bot.js"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0"
+  }
+}

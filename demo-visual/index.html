@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo RPA - Automatización de Formulario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🤖 Demo RPA para Devs</h1>
+    <p>Un bot de software llenando un formulario — sin intervención humana.</p>
+  </header>
+
+  <main>
+    <!-- LADO IZQUIERDO: El formulario (la "app" que el bot va a automatizar) -->
+    <section class="form-panel">
+      <h2>📋 Formulario de Registro</h2>
+      <form id="registro-form">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" placeholder="Ej: Ana García" />
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" placeholder="Ej: ana@correo.com" />
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" placeholder="Ej: 300 123 4567" />
+
+        <label for="ciudad">Ciudad</label>
+        <select id="ciudad">
+          <option value="">-- Selecciona --</option>
+          <option value="bogota">Bogotá</option>
+          <option value="medellin">Medellín</option>
+          <option value="cali">Cali</option>
+          <option value="barranquilla">Barranquilla</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="3" placeholder="Escribe algo..."></textarea>
+
+        <button type="submit" id="btn-enviar">Enviar registro</button>
+      </form>
+      <div id="form-resultado" class="resultado hidden">
+        ✅ ¡Formulario enviado exitosamente por el bot!
+      </div>
+    </section>
+
+    <!-- LADO DERECHO: Log del bot (muestra qué hace el RPA paso a paso) -->
+    <section class="log-panel">
+      <h2>🖥️ Log del Bot RPA</h2>
+      <div id="bot-log">
+        <p class="log-hint">Presiona el botón para iniciar el bot...</p>
+      </div>
+      <button id="btn-iniciar-bot" class="btn-bot">▶ Iniciar Bot RPA</button>
+      <button id="btn-reset" class="btn-reset">🔄 Reiniciar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>💡 Esto es lo que hacen herramientas como <strong>Playwright</strong> o <strong>UiPath</strong> — pero a escala.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="rpa-bot.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
