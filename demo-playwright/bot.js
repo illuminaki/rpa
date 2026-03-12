@@ -14,13 +14,16 @@ const { chromium } = require('playwright');
 
 // Datos que el bot va a ingresar
 // En un caso real podrían venir de un CSV, una API o una BD.
+// const datos = await axios.get("/api/registros")
 const datosRegistro = {
   nombre:   'Sebastian Augudelo',
-  email:    'sebas.garcia@empresa.com',
+  email:    'sebas.agudelo@empresa.com',
   telefono: '300 123 4567',
   ciudad:   'medellin',
   mensaje:  'Hola, quiero inscribirme al curso de RPA 2026.',
 };
+
+
 
 async function ejecutarBot() {
   console.log('🤖 Iniciando bot RPA...\n');

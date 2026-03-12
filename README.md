@@ -93,14 +93,6 @@ node bot.js
 - El proceso cambia constantemente
 - Tienes acceso directo a la base de datos
 
-## Flujo de enseñanza recomendado
-
-1. **Explica qué es RPA** usando la PPT (concepto, casos de uso)
-2. **Muestra `demo-visual`** en el navegador (visual, sin código)
-3. **Abre `demo-playwright/bot.js`** y explica el código línea por línea
-4. **Ejecuta `node bot.js`** para que vean Chromium automatizar el formulario
-5. **Modifica `datosRegistro`** en vivo y ejecuta de nuevo
-
 ## Próximos pasos para los estudiantes
 
 - Crear un bot que automatice un sitio real (ej: scraping de precios)
