@@ -1,10 +1,10 @@
-# 🤖 RPA para Devs — Workshop 2026
+# RPA para Devs — Workshop 2026
 
 Material educativo para enseñar **Robotic Process Automation (RPA)** a nivel de código.
 
 Dos enfoques complementarios: una demo visual para entender el concepto, y un bot real con Playwright para ver cómo funciona en la práctica.
 
-## 📂 Estructura del repo
+## Estructura del repo
 
 ```
 rpa/
@@ -22,7 +22,7 @@ rpa/
     └── README.md         → Instrucciones
 ```
 
-## 🎯 ¿Qué es RPA?
+## ¿Qué es RPA?
 
 **RPA = Robotic Process Automation**
 
@@ -33,7 +33,7 @@ Un bot de software que imita lo que haría un humano frente a una computadora:
 - Copiar información entre sistemas
 - Ejecutar procesos — **sin intervención humana**
 
-## 🚀 Cómo usar este repo
+## Cómo usar este repo
 
 ### Opción 1: Demo Visual (sin instalación)
 
@@ -41,7 +41,7 @@ Un bot de software que imita lo que haría un humano frente a una computadora:
 cd demo-visual
 python3 -m http.server 8080
 # Abre http://localhost:8080
-# Presiona "▶ Iniciar Bot RPA" para ver el bot en acción
+# Presiona "Iniciar Bot RPA" para ver el bot en acción
 ```
 
 **Ideal para:** Explicar el concepto a nivel general, ver visualmente qué hace un bot.
@@ -57,7 +57,7 @@ node bot.js
 
 **Ideal para:** Mostrar cómo funciona una herramienta RPA real, ver Chromium abrirse y automatizar el formulario.
 
-## 📚 Conceptos clave
+## Conceptos clave
 
 | Concepto | Explicación |
 |----------|-------------|
@@ -70,7 +70,7 @@ node bot.js
 | **Click** | Hacer clic en un elemento |
 | **Screenshot** | Tomar captura de pantalla (evidencia) |
 
-## 🔗 Herramientas RPA reales (2026)
+## Herramientas RPA reales (2026)
 
 | Herramienta | Tipo | Ideal para |
 |-------------|------|-----------|
@@ -81,19 +81,19 @@ node bot.js
 | **UiPath** | Enterprise | RPA corporativo (SAP, legacy apps) |
 | **Make** | Cloud (freemium) | Flujos visuales sin código |
 
-## 💡 Cuándo usar RPA
+## Cuándo usar RPA
 
-✅ **Usa RPA cuando:**
+**Usa RPA cuando:**
 - No hay API disponible
 - El proceso es repetitivo y bien definido
 - Necesitas automatizar una interfaz visual (web o desktop)
 
-❌ **NO uses RPA cuando:**
+**NO uses RPA cuando:**
 - Existe una API disponible (úsala en su lugar)
 - El proceso cambia constantemente
 - Tienes acceso directo a la base de datos
 
-## 🎓 Flujo de enseñanza recomendado
+## Flujo de enseñanza recomendado
 
 1. **Explica qué es RPA** usando la PPT (concepto, casos de uso)
 2. **Muestra `demo-visual`** en el navegador (visual, sin código)
@@ -101,14 +101,14 @@ node bot.js
 4. **Ejecuta `node bot.js`** para que vean Chromium automatizar el formulario
 5. **Modifica `datosRegistro`** en vivo y ejecuta de nuevo
 
-## 📝 Próximos pasos para los estudiantes
+## Próximos pasos para los estudiantes
 
 - Crear un bot que automatice un sitio real (ej: scraping de precios)
 - Leer datos desde un CSV y rellenar múltiples formularios
 - Integrar con una API para procesar resultados
 - Usar Playwright en modo headless para ejecutar en servidor
 
-## 🔗 Enlaces útiles
+## Enlaces útiles
 
 - [Documentación Playwright](https://playwright.dev)
 - [Guía de selectores CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectors)

@@ -1,4 +1,4 @@
-# 🖥️ demo-visual — Simulación de RPA en el Browser
+# demo-visual — Simulación de RPA en el Browser
 
 Formulario web + bot simulado en JavaScript puro.
 **No requiere Node.js ni instalación.**
@@ -35,4 +35,4 @@ index.html  →  la APP que se automatiza
 
 ---
 
-📚 **Parte del proyecto RPA para Devs**: https://github.com/illuminaki/rpa
+**Parte del proyecto RPA para Devs**: https://github.com/illuminaki/rpa

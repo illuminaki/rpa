@@ -1,4 +1,5 @@
 node_modules/
+demo-play/node_modules
 package-lock.json
 evidencia.png
 .DS_Store

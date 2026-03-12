@@ -1,4 +1,4 @@
-# 🤖 demo-playwright — Bot RPA real con Playwright
+# demo-playwright — Bot RPA real con Playwright
 
 Un script Node.js que abre un **browser real (Chromium)**, navega al formulario
 de `demo-visual` y lo llena automáticamente.
@@ -66,4 +66,4 @@ Eso es exactamente lo que hace un proceso RPA en producción.
 
 ---
 
-📚 **Parte del proyecto RPA para Devs**: https://github.com/illuminaki/rpa
+**Parte del proyecto RPA para Devs**: https://github.com/illuminaki/rpa
